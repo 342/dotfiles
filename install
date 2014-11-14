@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for x in .bashrc .nanorc .profile .screenrc ; do
+for x in .bashrc .gitconfig .nanorc .profile .screenrc ; do
     ln -fs "$(pwd)/${x}" "${HOME}/${x}"
 done
