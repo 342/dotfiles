@@ -1,0 +1,10 @@
+autodetach on
+deflogin off
+defnonblock on
+defutf8 on
+nethack on
+startup_message off
+vbell off
+
+hardstatus alwayslastline
+hardstatus string '%{= m}Load Avg:%{= G} %l %= %{= w}%-w%{+b r}%n:%t%{-b r}%{w}%+w %= %{b}%D %d/%m/%Y %{Y}%c'
